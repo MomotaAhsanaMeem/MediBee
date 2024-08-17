@@ -1,0 +1,84 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url("https://png.pngtree.com/background/20221202/original/pngtree-medical-healthcare-hospital-theme-background-picture-image_1978478.jpg");
+  background-size: cover;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.8
+  ); /* Add a semi-transparent white background to make text more readable */
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.product {
+  flex: 0 0 calc(50% - 20px);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: center;
+}
+
+.product img {
+  width: 100%;
+  max-width: 200px;
+}
+
+.cart {
+  border-top: 2px solid #000;
+  padding-top: 20px;
+}
+
+.cart h2 {
+  margin-bottom: 10px;
+}
+
+.cart ul {
+  padding: 0;
+}
+
+.cart li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.cart button {
+  margin-top: 10px;
+}
